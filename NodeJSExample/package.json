@@ -1,11 +1,10 @@
 {
-  "name": "nodejsexamplewk2-3",
+  "name": "nodejsexample",
   "version": "1.0.0",
   "description": "wk2may042024",
   "main": "index.js",
   "scripts": {
-
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "hello": "node helloworld.js"
   },
   "repository": {
@@ -13,5 +12,8 @@
     "url": "itm350-duvalldor-test"
   },
   "author": "doreenduvall",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
