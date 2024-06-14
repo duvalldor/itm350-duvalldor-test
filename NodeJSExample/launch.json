@@ -1,0 +1,7 @@
+{
+    "command": "npm run test -- --coverage",
+    "name": "Run npm test",
+    "request": "launch",
+    "type": "node-terminal",
+    "cwd": "${workspaceFolder}/NodeJSExample"
+}
