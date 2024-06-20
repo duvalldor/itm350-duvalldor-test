@@ -32,6 +32,9 @@ jobs:
         uses: actions/checkout@v4
 
       - run: |
+          cd bb/bulletin-board-app
+      
+      - run: |
           npm install
       
       - name: Log in to Docker Hub
