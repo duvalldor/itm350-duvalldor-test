@@ -18,7 +18,7 @@ on:
         types:
          - closed
 env:
-    REPO-NAME: doreen1/itm350-duvalldor-bb
+    REPO_NAME: doreen1/itm350-duvalldor-bb
           
 jobs:
   if_merged:
