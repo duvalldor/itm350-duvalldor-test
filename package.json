@@ -11,5 +11,9 @@
     "url": "itm350-duvalldor-test"
   },
   "author": "Doreen",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "node-fetch2": "^1.6.3"
+  }
 }
