@@ -25,7 +25,7 @@ new Vue({
     },
 
     addEvent: function () {
-
+      if (this.event.title.trim()) {
         this.$http.post('/api/events', this.event)
           .success(function (res) {
             this.events.push(this.event);
