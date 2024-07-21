@@ -1,10 +1,10 @@
 const api = require('./api');
 
 
-// Include the AWS SDK module
-const AWS = require('aws-sdk');
-// Set the region
-AWS.config.update({ region: 'us-east-1' });
+// // Include the AWS SDK module
+// const AWS = require('aws-sdk');
+// // Set the region
+// AWS.config.update({ region: 'us-east-1' });
 
 // *** We could NOT get any mock of DynamoDB to work:
 //     We spent days trying to figure out how to do it.
