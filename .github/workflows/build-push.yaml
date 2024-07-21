@@ -23,7 +23,7 @@ env:
     REPO_NAME: doreen1/itm350-duvalldor-bb
           
 jobs:
-  if_merged:
+  build_push_if_merged:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:

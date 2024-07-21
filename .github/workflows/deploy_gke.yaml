@@ -18,7 +18,7 @@ env:
   IMAGE:           itm350-duvalldor-bb
 
 jobs:
-  if_merged:
+  deploy_gke_if_merged:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     # Prototype changes go here:

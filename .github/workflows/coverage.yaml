@@ -3,7 +3,7 @@ name: Run-unit-test
 on: [push]
 
 jobs:
-  dev-test:
+  coverage_test:
 
     runs-on: ubuntu-latest
 
