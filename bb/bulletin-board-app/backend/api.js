@@ -2,15 +2,15 @@
 const statusCodes = require('http').STATUS_CODES;
 const httpConstants = require('http2').constants;
 
-// Include the AWS SDK module
-const AWS = require('aws-sdk');
-// Set the region
-AWS.config.update({ region: 'us-east-1' });
+// // Include the AWS SDK module
+// const AWS = require('aws-sdk');
+// // Set the region
+// AWS.config.update({ region: 'us-east-1' });
 
 
 
-// Instantiate a DynamoDB document client with the SDK
-let dynamodb = new AWS.DynamoDB({ apiVersion: '2012-08-10' });
+// // Instantiate a DynamoDB document client with the SDK
+// let dynamodb = new AWS.DynamoDB({ apiVersion: '2012-08-10' });
 
 
 let params = {
